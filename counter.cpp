@@ -74,8 +74,10 @@ int main( int argc, char ** argv )
 
 	out.close();
 
+	
+	// Oleg code
 	int m = 0, j = 0;
-	for(size_t i = 2; i < fight_info.size(); ++i)
+	for(size_t i = 1; i < fight_info.size(); ++i)
     {
         int sz = fight_info[i].size();
         if(sz > m)
