@@ -81,8 +81,8 @@ int main( int argc, char ** argv )
     {
         int sz = fight_info[i].size();
         if(sz > m)
-        {
-            m = sz;
+        
+{            m = sz;
             j = i;
         }
     }
